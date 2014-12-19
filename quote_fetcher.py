@@ -34,6 +34,7 @@ def get_topics():
     for topic in topics:
         #print topic,"\n"
         fetch_links(topic)
+        time.sleep(5)
 
 if __name__ == '__main__':
     get_topics()
